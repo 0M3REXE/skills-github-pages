@@ -3,16 +3,22 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Jekyll Website
+# Hi, I'm Md Omer Abdullah 👋
 
-Hello! This is a simple Jekyll website to help you get started. 
+A passionate Cybersecurity Analyst and Blockchain Developer committed to solving complex security challenges and innovating with blockchain technology.
 
-## Recent Posts
+## Professional Snapshot
 
-{% for post in site.posts limit:3 %}
-  <article>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-    <small>{{ post.date | date_to_string }}</small>
-  </article>
-{% endfor %}
+I specialize in:
+- Penetration Testing
+- Cybersecurity Risk Management
+- Blockchain Development
+- Ethical Hacking
+
+### Key Strengths
+- 15+ Security Assessments Completed
+- 100% On-Time Delivery Rate
+- 95% Client Satisfaction
+- Expertise in Python, Solidity, and Cybersecurity
+
+[View My Projects](/projects) | [Download Resume](/resume.pdf)
