@@ -1,1 +1,32 @@
+# Site settings
+title: Md Omer Abdullah | Cybersecurity & Blockchain
+email: omerhyd8080@gmail.com
+description: >-
+  Cybersecurity Analyst | Blockchain Developer | Ethical Hacker
+baseurl: ""
+url: ""
+
+# Build settings
 theme: minima
+plugins:
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Social media links
+github_username: 0M3REXE
+linkedin_username: 0m3r
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
