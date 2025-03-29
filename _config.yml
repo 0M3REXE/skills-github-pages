@@ -1,32 +1,21 @@
-# Site settings
-title: Md Omer Abdullah | Cybersecurity & Blockchain
-email: omerhyd8080@gmail.com
-description: >-
-  Cybersecurity Analyst | Blockchain Developer | Ethical Hacker
-baseurl: ""
-url: ""
+title: Your Portfolio
+description: A showcase of my projects and skills
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social profiles
+github_username: yourusername
+linkedin_username: yourlinkedinname
+twitter_username: yourtwitterhandle
+email: your.email@example.com
+
+# Portfolio settings
+author: Your Name
+job_title: Web Developer & Designer
+location: City, Country
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-seo-tag
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-# Social media links
-github_username: 0M3REXE
-linkedin_username: 0m3r
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/

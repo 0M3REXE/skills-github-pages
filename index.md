@@ -1,24 +1,33 @@
 ---
-layout: default
-title: Home
+layout: home
+title: Welcome to My Portfolio
 ---
 
-# Hi, I'm Md Omer Abdullah 👋
+# Hello, I'm {{ site.author }}
 
-A passionate Cybersecurity Analyst and Blockchain Developer committed to solving complex security challenges and innovating with blockchain technology.
+{{ site.description }}
 
-## Professional Snapshot
+## About Me
 
-I specialize in:
-- Penetration Testing
-- Cybersecurity Risk Management
-- Blockchain Development
-- Ethical Hacking
+I am a {{ site.job_title }} based in {{ site.location }}. I specialize in creating responsive and user-friendly websites. With a passion for clean code and modern design, I strive to build digital experiences that are both functional and beautiful.
 
-### Key Strengths
-- 15+ Security Assessments Completed
-- 100% On-Time Delivery Rate
-- 95% Client Satisfaction
-- Expertise in Python, Solidity, and Cybersecurity
+## Skills
 
-[View My Projects](/projects) | [Download Resume](/resume.pdf)
+- HTML5, CSS3, JavaScript
+- Responsive Web Design
+- UI/UX Design
+- Front-end Frameworks (React, Vue)
+- Back-end Development (Node.js, Ruby on Rails)
+- Version Control (Git)
+
+## Projects
+
+{% include projects.html %}
+
+## Contact
+
+Feel free to reach out to me at [{{ site.email }}](mailto:{{ site.email }}) or connect with me on social media:
+
+- [GitHub](https://github.com/{{ site.github_username }})
+- [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username }})
+- [Twitter](https://twitter.com/{{ site.twitter_username }})
