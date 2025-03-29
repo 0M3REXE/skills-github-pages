@@ -1,18 +1,33 @@
 ---
-layout: default
-title: Home
+layout: home
+title: Welcome to My Portfolio
 ---
 
-# Welcome to My Jekyll Website
+# Hello, I'm {{ site.author }}
 
-Hello! This is a simple Jekyll website to help you get started. 
+{{ site.description }}
 
-## Recent Posts
+## About Me
 
-{% for post in site.posts limit:3 %}
-  <article>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-    <small>{{ post.date | date_to_string }}</small>
-  </article>
-{% endfor %}
+I am a {{ site.job_title }} based in {{ site.location }}. I specialize in creating responsive and user-friendly websites. With a passion for clean code and modern design, I strive to build digital experiences that are both functional and beautiful.
+
+## Skills
+
+- HTML5, CSS3, JavaScript
+- Responsive Web Design
+- UI/UX Design
+- Front-end Frameworks (React, Vue)
+- Back-end Development (Node.js, Ruby on Rails)
+- Version Control (Git)
+
+## Projects
+
+{% include projects.html %}
+
+## Contact
+
+Feel free to reach out to me at [{{ site.email }}](mailto:{{ site.email }}) or connect with me on social media:
+
+- [GitHub](https://github.com/{{ site.github_username }})
+- [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username }})
+- [Twitter](https://twitter.com/{{ site.twitter_username }})
